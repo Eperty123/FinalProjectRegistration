@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinalProjectRegistration.Core\FinalProjectRegistration.Core.csproj" />
+    <ProjectReference Include="..\FinalProjectRegistration.Domain\FinalProjectRegistration.Domain.csproj" />
+    <ProjectReference Include="..\FinalProjectRegistration.Infrastructure.Data\FinalProjectRegistration.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

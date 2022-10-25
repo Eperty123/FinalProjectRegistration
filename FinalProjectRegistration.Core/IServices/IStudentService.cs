@@ -2,7 +2,7 @@
 
 namespace FinalProjectRegistration.Core.IServices
 {
-    public interface IStudentRepository
+    public interface IStudentService
     {
         IEnumerable<Student> GetAll();
         Student GetById(int id);

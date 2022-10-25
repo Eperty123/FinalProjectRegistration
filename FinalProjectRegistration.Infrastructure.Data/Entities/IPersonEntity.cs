@@ -1,6 +1,6 @@
-﻿namespace FinalProjectRegistration.Core.Models
+﻿namespace FinalProjectRegistration.Infrastructure.Data.Entities
 {
-    public class Student : IPerson
+    public interface IPersonEntity
     {
         public int Id { get; set; }
         public string? Name { get; set; }

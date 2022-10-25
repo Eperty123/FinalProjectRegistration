@@ -1,6 +1,6 @@
 ﻿namespace FinalProjectRegistration.Core.Models
 {
-    public class Student : IPerson
+    public class Teacher : IPerson
     {
         public int Id { get; set; }
         public string? Name { get; set; }
